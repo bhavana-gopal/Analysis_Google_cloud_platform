@@ -1,0 +1,3 @@
+SELECT  count(date) as no_of_dates
+ FROM `bigquery-public-data.chicago_crime.crime`
+ where primary_type = 'CRIMINAL DAMAGE' and location_description ='RESIDENCE'
