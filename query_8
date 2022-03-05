@@ -1,0 +1,3 @@
+SELECT AVG(symptom_Allergy)
+ FROM `bigquery-public-data.covid19_symptom_search.symptom_search_country_daily`
+ where country_region = 'United States'
