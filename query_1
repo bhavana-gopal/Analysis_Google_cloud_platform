@@ -1,0 +1,3 @@
+SELECT distinct (payment_type)
+ FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips`
+ where fare > 9900
