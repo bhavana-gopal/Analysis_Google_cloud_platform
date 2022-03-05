@@ -1,0 +1,5 @@
+SELECT ch.property_type
+FROM `properati-data-public.properties_mx.properties_rent_201501` ch
+INNER JOIN `properati-data-public.properties_br.properties_rent_201501` br
+ON ch.property_type=br.property_type
+group by ch.property_type
