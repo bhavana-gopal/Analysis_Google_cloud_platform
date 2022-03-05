@@ -1,0 +1,3 @@
+SELECT count (distinct block) as no_of_theft
+ FROM `bigquery-public-data.chicago_crime.crime` 
+ where primary_type ='THEFT'
