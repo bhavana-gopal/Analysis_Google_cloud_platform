@@ -1,0 +1,4 @@
+SELECT block_id, avg (value_max) as  avg_max_value 
+FROM `housecanary-com.sample.block_rental_value`
+group by 1
+order by 2
