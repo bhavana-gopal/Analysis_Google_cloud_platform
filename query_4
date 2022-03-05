@@ -1,0 +1,3 @@
+SELECT sum (fare) as total_fare
+FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips`
+where trip_miles between 1 and 1.2
